@@ -27,11 +27,6 @@ Sentiment Analysis/
 │   │   ├── prompt_tuning_1/                
 │   │   └── prompt_tuning_2/                
 │   └── unfrozen_layers/                    
-├── models/                                 # Trained models
-│   ├── final_model/                        
-│   ├── hyperparam_tuning/                  
-│   ├── prompt_tuning/                      
-│   └── unfrozen_layers/                    
 ├── notebooks/                              # Jupyter notebooks for experiments
 │   ├── baseline.ipynb                      
 │   ├── fine_tuning.ipynb                   
@@ -57,9 +52,7 @@ Sentiment Analysis/
 
 4. **Experiment Tracking**:
     - Experiment logs for baseline, hyperparameter tuning, prompt tuning, and models with unfrozen layers are stored in the respective subdirectories under `logs/`.
-
-5. **Accessing Models**:
-    - Trained models are saved in the `models/` directory, categorized by the type of experiment.
+   
 
 ## Documentation
 - Additional documentation and project insights can be found in the `paper.pdf` files.
