@@ -15,9 +15,10 @@ Sentiment Analysis/
 │   ├── twitter_test.csv                    # Raw data files
 │   ├── twitter_train.csv                    
 │   │                             
-│   ├── cleaned/                            # Cleaned datasets
-│   │   ├── test.csv                                     
-│   │   └── train.csv                     
+│   └── cleaned/                            # Cleaned datasets
+│       ├── test.csv                                     
+│       └── train.csv                     
+│
 ├── logs/                                   # Training and tuning logs
 │   ├── baseline/                           
 │   ├── final_model/                        
@@ -26,11 +27,13 @@ Sentiment Analysis/
 │   │   ├── prompt_tuning_0/                
 │   │   ├── prompt_tuning_1/                
 │   │   └── prompt_tuning_2/                
-│   └── unfrozen_layers/                    
+│   └── unfrozen_layers/
+│                    
 ├── notebooks/                              # Jupyter notebooks for experiments
 │   ├── baseline.ipynb                      
 │   ├── fine_tuning.ipynb                   
-│   └── text_preprocessing.ipynb            
+│   └── text_preprocessing.ipynb
+│            
 ├── .gitignore                                                            
 ├── paper.pdf                               # Project documentation in PDF format
 ├── README.md                               # Project README file
