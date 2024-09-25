@@ -30,14 +30,14 @@ Sentiment Analysis/
 │   └── unfrozen_layers/
 │                    
 ├── notebooks/                              # Jupyter notebooks for experiments
-│   ├── baseline.ipynb                      
+│   ├── baseline.ipynb    
+│   ├── eda.ipynb               
 │   ├── fine_tuning.ipynb                   
 │   └── text_preprocessing.ipynb
 │            
-├── .gitignore                                                            
-├── paper.pdf                               # Project documentation in PDF format
-├── README.md                               # Project README file
-└── requirements.txt                        # Python dependencies
+├── .gitignore                                                                                        
+├── README.md                              
+└── requirements.txt                        
 ```
 
 
@@ -57,6 +57,5 @@ Sentiment Analysis/
     - Experiment logs for baseline, hyperparameter tuning, prompt tuning, and models with unfrozen layers are stored in the respective subdirectories under `logs/`.
    
 
-## Documentation
-- Additional documentation and project insights can be found in the `paper.pdf` files.
+
 
